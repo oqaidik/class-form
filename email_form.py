@@ -8,7 +8,7 @@ creds = ServiceAccountCredentials.from_json_keyfile_name('credentials.json', sco
 client = gspread.authorize(creds)
 
 # Google Sheets ID
-sheet_id = '1QQ-NKZ6gNwBMIVoxpo7rpWHY-fU20ZyteJGr8vNkolU'
+sheet_id = ''
 
 # Streamlit app
 st.title("Form Submission")
